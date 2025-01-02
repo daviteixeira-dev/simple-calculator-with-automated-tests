@@ -4,7 +4,7 @@ const currentOperationText = document.querySelector("#current-operation");
 const buttons = document.querySelectorAll("#buttons-container button");
 
 // Main class that defines the behavior of the calculator
-class Calculator {
+export default class Calculator {
     constructor(previousOperationText, currentOperationText){
         // Elements to display operations on the screen
         this.previousOperationText = previousOperationText;
@@ -192,5 +192,3 @@ buttons.forEach((btn) => {
         }
     });
 });
-
-module.exports = Calculator;
