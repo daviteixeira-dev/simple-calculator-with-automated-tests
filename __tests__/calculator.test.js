@@ -3,7 +3,7 @@ const mockPreviousOperationText = { innerText: "" };
 const mockCurrentOperationText = { innerText: "" };
 
 // Import the Calculator class from the existing file
-const Calculator = require("../js/script");
+import Calculator from "../js/script"; "../js/script";
 
 // Create an instance of the calculator with the mocks
 let calc;
